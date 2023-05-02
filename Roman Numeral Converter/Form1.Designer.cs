@@ -63,6 +63,7 @@
             this.displayRomanNumeral.Size = new System.Drawing.Size(138, 26);
             this.displayRomanNumeral.TabIndex = 2;
             this.displayRomanNumeral.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.displayRomanNumeral.Click += new System.EventHandler(this.displayRomanNumeral_Click);
             // 
             // convertToRoman
             // 
@@ -82,6 +83,7 @@
             this.exitForm.TabIndex = 4;
             this.exitForm.Text = "E&xit";
             this.exitForm.UseVisualStyleBackColor = true;
+            this.exitForm.Click += new System.EventHandler(this.exitForm_Click);
             // 
             // frmRomanNumeralConverter
             // 
